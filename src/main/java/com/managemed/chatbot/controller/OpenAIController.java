@@ -26,9 +26,9 @@ public class OpenAIController {
 
     @PostMapping("/")
     public ResponseEntity<String> getResponse(@RequestBody String message) {
-        // String response = chatModel.call(message);
-        // return ResponseEntity.ok(message);
+        String response = chatModel.call(message);
+        return ResponseEntity.ok(response);
         
-        return ResponseEntity.ok("Thanks for the message:" + message + "Hello from OpenAIController");
+        // return ResponseEntity.ok("Thanks for the message:" + message + "Hello from OpenAIController");
     }
 }
