@@ -8,11 +8,12 @@
 		<version>3.5.10</version>
 		<relativePath/>
 	</parent>
-	<groupId>com.example</groupId>
-	<artifactId>demo</artifactId>
+	<groupId>com.chatbot</groupId>
+	<artifactId>chatbot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo</name>
-	<description>Demo project for Spring Boot</description>
+	<packaging>jar</packaging>
+	<name>chatbot</name>
+	<description>Chatbot project</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -70,6 +71,7 @@
 	</dependencyManagement>
 
 	<build>
+		<finalName>managemedchatbot</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
